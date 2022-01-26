@@ -47,7 +47,7 @@ function gatherHtmlAndSendEmail() {
       let dd = 0;
       while (dd < day_aut.length){
         if (dayToday.includes(day_aut[dd]) && monthToday.includes(month_aut[mm])){
-          /* MailApp.sendEmail({
+            MailApp.sendEmail({
             to: to,
             cc: cc,
             bcc: bcc,
